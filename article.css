@@ -1,0 +1,345 @@
+body {
+    padding-top: 90px;
+    overflow-y: auto !important;
+}
+
+/*navbar*/
+.custom-navbar {
+    background: linear-gradient(90deg, #f7dbe5, #f4c9d7);
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+        
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 2em !important;
+    font-weight: bold;
+    color: #4a2f36;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand :hover {
+    color: rgb(218, 67, 113);
+}
+
+/* Search */
+.search-wrapper {
+    position: relative;
+    width: 350px;
+}
+
+.search-wrapper i {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 10px 12px 10px 38px;
+    border-radius: 25px;
+    border: 2px solid #f4c9d7;
+    background-color: #f7dbe5;
+    outline: none;
+}
+
+/* Dropdown Langue */
+.dropdown-lang .lang-select {
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid #e8a8b8;
+    font-weight: 600;
+    background-color: #e8a8b8;
+    color: #fff;
+}
+
+/*--propose$contact--*/
+.nav-link {
+    font-weight: 600;
+    color: #5a3c45 !important;
+    margin-left: 10px;
+}
+
+/*div*/
+.brands-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    margin-top: -17px;
+    background: #e8a8b8;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.brands-bar a {
+    text-decoration: none;
+    text-shadow: #444 1px 1px 2px;
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.brands-bar a:hover {
+    color: #d36a91;
+    letter-spacing: 1px;
+}
+
+/*--menu--*/
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 220px;
+    padding: 20px;
+    background-color: #f4c9d7;
+    border-right: 1px solid #eee;
+    height: calc(100vh - 90px);
+    margin-top: 130px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+
+/*scrollbar */
+.side-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.side-menu::-webkit-scrollbar-thumb {
+    background: #e8a8b8;
+    border-radius: 10px;
+}
+
+.side-menu::-webkit-scrollbar-track {
+    background: #ffe6f0;
+}
+
+.side-menu li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.715);
+}
+
+/* flexbox */
+.side-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu li {
+    padding: 10px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #f8c6d8;
+    transition: 0.3s;
+}
+
+.side-menu li:hover {
+    background-color: #ffe3f0;
+    color: #d36a91 !important;
+    padding-left: 12px;
+}
+
+/* .products-grid {
+    margin-left: 240px;
+   
+    margin-top: 120px;
+    
+    padding: 20px;
+    height: auto;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    gap: 25px;
+
+    width: calc(100% - 260px);
+} */
+
+/*photo*/  
+.content-area {
+    position: fixed;
+    top: 170px;
+    left: 240px;
+    width: calc(100% - 240px);
+    height: calc(100vh - 170px);
+    overflow-y: auto;
+    padding: 25px;
+    background: #fff;
+}
+
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+.card-item {
+    background: #fff;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.card-item:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-item img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+
+.card-item h4 {
+    color: #d36a91;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.card-item p {
+    font-size: 14px;
+    color: #555;
+    min-height: 40px;
+}
+
+.card-item .price {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+
+.card-item button {
+    background-image: linear-gradient(to top, #d36a91, #e8a8b8, #e8a8b8);
+    color: white !important;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card-item button:hover {
+    background: #b95478;
+    color: white;
+}
+
+.hero-carousel img {
+    margin-bottom: 1.5em !important;
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+.card:hover { transform: scale(1.03); transition: 0.3s; }
+button:hover { opacity: 0.9; }
+/* panier */
+.panier {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#count {
+  background: #d36a91;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+/* ===================== FIX MOBILE ===================== */
+@media (max-width: 992px) {
+
+    .side-menu {
+        display: none;
+
+    }
+
+    .content-area {
+        position: relative;
+        /* dans le mobele annuler❗ */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .brands-bar {
+        position: sticky;
+        top: 140px;
+        z-index: 900;
+    }
+}
+
+
+.menu-toggle {
+    background: transparent;
+    border: none;
+    font-size: 26px;
+    color: #d36a91;
+    margin-right: 10px;
+}
+
+@media (max-width: 991px) {
+
+    .side-menu {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        display: none;
+        z-index: 2000;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .side-menu.show {
+        display: block;
+        animation: slideDown 0.3s ease;
+    }
+
+    .content-area {
+        left: 0;
+        width: 100%;
+    }
+}
+
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="article.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title> 💎MAHIS</title>
+</head>
+
+<body>
+  <nav class="navbar custom-navbar d-flex justify-content-between align-items-center">
+    <!-- Logo à gauche -->
+    <a class="navbar-brand" href="index.html" style="text-shadow: white 1px 5px 2px ;">
+      <i class="fas fa-gem me-2" style="color:#d36a91;"></i>
+      MAHIS</a>
+    <!--Recherche au centre -->
+    <div class="search-wrapper">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Recherche...">
+    </div>
+    <!--  Langue -->
+    <div class="dropdown dropdown-lang">
+      <select class="lang-select">
+        <option value="fr" selected>FR</option>
+        <option value="en">EN</option>
+        <option value="ar">AR</option>
+      </select>
+    </div>
+     <!-- Panier à droite -->
+    <div class="panier">
+      🛒 <span id="count">0</span>
+    </div>
+    <!--lien -->
+    <div class="d-flex align-items-center">
+      <a class="nav-link" href="about.html">À propos</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+
+    </div>
+  </nav>
+
+  <!-- Section des produits sous Navbar -->
+  <div class="brands-bar">
+    <button class="menu-toggle d-lg-none" id="menuToggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <a href="article.html" id="wardah">Wardah</a>
+    <a href="kiko.html">Kiko</a>
+    <a href="chanel.html">Chanel</a>
+  </div>
+  <!--menu-->
+  <div class="side-menu" id="wardah">
+    <ul>
+      <li><strong><a href="soin.html">SOIN</a></strong></li>
+      <li><strong><a href="solaire.html">SOLAIRE</a></strong></li>
+      <li><strong><a href="make_upk.html">MAKE UP</a></strong></li>
+      <li><strong><a href="fragrances.html">FRAGRANCES</a></strong></li>
+      <li><strong><a href="cheveux.html">CHEVEUX</a></strong></li>
+      <li><strong><a href="accessoires.html">ACCESSOIRES</a></strong></li>
+      <!-- <li>Fenty Beauty</li>
+        <li>NYX</li>
+        <li>Rare Beauty</li>
+        <li>NARS</li>
+        <li>Sephora</li>
+        <li>MAC</li>
+        <li>Urban Decay</li>
+        <li>Too Faced</li>
+        <li>L'Oréal</li>
+        <li>Bourjois</li>
+        <li>Essence</li>
+        <li>YSL Beauty</li>
+        <li>Givenchy</li>
+        <li>Clinique</li> -->
+    </ul>
+  </div>
+  <!-- CONTENT SCROLLABLE -->
+  <div class="content-area">
+    <div class="hero-carousel mb-4">
+      <div id="mahisCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner rounded-4 overflow-hidden">
+
+          <div class="carousel-item active">
+            <img src="kiko-car1.jpg" class="d-block w-100">
+          </div>
+
+          <div class="carousel-item">
+            <img src="kiko-car2.jpg" class="d-block w-100">
+          </div>
+
+          <div class="carousel-item">
+            <img src="kiko-car3.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item ">
+            <img src="kiko-car5.jpg" class="d-block w-100">
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#mahisCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#mahisCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <!-- CARD -->
+      <div class="cards-grid">
+
+        <div class="card-item">
+          <img src="A (2).png" alt="article">
+          <h4>Réf : W001</h4>
+          <p>pure clean <br> eyes&lips</p>
+          <span class="price">120 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+
+        </div>
+
+        <div class="card-item">
+          <img src="a.png" alt="article">
+          <h4>Réf : K002</h4>
+          <p>skin trainer <br>cc blur </p>
+          <span class="price">95 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+
+        </div>
+
+        <div class="card-item">
+          <img src="b.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Lorem, ipsum dolor.</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="c.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Purifying face mask </p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="d.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>skin trainer</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="e.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Crem <br>Lorem, ipsum dolor. </p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="f.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>>
+        </div>
+        <div class="card-item">
+          <img src="g.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="h.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="i.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="j.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="k.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="l.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="m.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="n.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="o.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="p.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="q.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="r.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="s.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="t.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="u.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="v.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="w.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="x.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="y.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+        <div class="card-item">
+          <img src="z.png" alt="article">
+          <h4>Réf : C003</h4>
+          <p>Parfum Chanel</p>
+          <span class="price">780 DH</span>
+          <button><a href="quantite.html" class="btn btn-buy">Acheter</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JS Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ================= MENU SCRIPT ================= -->
+    <script>
+      const toggleBtn = document.getElementById("menuToggle");
+      const sideMenu = document.querySelector(".side-menu");
+
+      toggleBtn.addEventListener("click", () => {
+        sideMenu.classList.toggle("show");
+      });
+    </script>
+    <!-- ================= END SCRIPT ================= -->
+</body>
+
+</html>

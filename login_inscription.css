@@ -1,0 +1,80 @@
+/*navbar*/
+.custom-navbar {
+    background: linear-gradient(90deg, #f7dbe5, #f4c9d7);
+    margin-top: -80px;
+    position: fixed !important;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 2em !important;
+    font-weight: bold;
+    color: #4a2f36;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* Reset et font */
+body {
+    background: linear-gradient(90deg, #f7dbe5, #f4c9d7);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur commun pour login/inscription */
+.form-container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4a2f36;
+}
+
+.form-control {
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: 2px solid #f4c9d7;
+    background-color: #f7dbe5;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #e8a8b8;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to top, #d36a91, #e8a8b8, #e8a8b8);
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+
+}
+
+.btn-primary:hover {
+    background-color: #d36a91;
+}
+
+.text-center a {
+    color: #e8a8b8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.text-center a:hover {
+    color: #d36a91;
+}

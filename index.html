@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title> 💎MAHIS</title>
+</head>
+
+<body>
+  <nav class="navbar custom-navbar d-flex justify-content-between align-items-center ">
+    <!-- Logo à gauche -->
+    <a class="navbar-brand" href="index.html" style="text-shadow: white 1px 5px 2px ;">
+      <i class="fas fa-gem me-2" style="color:#d36a91;"></i>
+      MAHIS</a>
+    <!--Recherche au centre -->
+    <div class="search-wrapper">
+      <!-- font awsoneome -->
+      <i class="fa fa-search"></i>     
+      <input type="text" placeholder="Recherche...">
+    </div>
+    <!-- Dropdown Langue à côté -->
+    <div class="dropdown dropdown-lang">
+      <select class="lang-select">
+        <option value="fr" selected>FR</option>
+        <option value="en">EN</option>
+        <option value="ar">AR</option>
+      </select>
+    </div>
+    <!--lien -->
+    <div class="d-flex align-items-center">
+      <a class="nav-link" href="about.html">À propos</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+      <a class="btn btn-auth" href="login.html">Login</a>
+      <a class="btn btn-auth" href="inscription.html">Inscription</a>
+    </div>
+  </nav>
+  <!--carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="wardah_pink.jpg" alt="First slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="kiko.jpg" alt="Second slide">
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="chanel.jpg" alt="Third slide">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+  <!-- Bloc 1 : Infos sur le site -->
+
+  <section class="info-site py-5 bg-light text-center" style="background-color: pink !important;" id="propos">
+    <div class="container">
+      <h2>Découvrez notre boutique de beauté</h2>
+      <p>
+        Bienvenue sur notre site ! Nous vous proposons une sélection exclusive des meilleures marques
+        de cosmétiques et soins de la peau. Retrouvez nos produits phares des marques internationales
+        comme <strong>Wardah</strong>, <strong>Kiko</strong> et <strong>Chanel</strong>,
+        allant des parfums aux produits de maquillage et soins pour la peau.
+        Explorez nos catalogues pour trouver vos articles préférés et profiter de la qualité
+        des marques renommées que nous vendons.
+      </p>
+    </div>
+  </section>
+  <!-- Bloc 2 : Nos produits -->
+  <section class="produits py-5 text-center">
+    <div class="container">
+      <h2>Nos produits phares</h2>
+      <div class="row mt-4">
+
+        <!-- Produit 1 : Wardah -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="wardah.jpg" class="card-img-top" alt="Wardah">
+            <div class="card-body">
+              <h5 class="card-title">Wardah</h5>
+              <p class="card-text">Découvrez notre sélection de maquillage et soins de la peau de la marque Wardah,
+                réputée pour sa qualité et son originalité.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 2 : Kiko -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="kiko.jpg" class="card-img-top" alt="Kiko">
+            <div class="card-body">
+              <h5 class="card-title">Kiko</h5>
+              <p class="card-text">Explorez les produits Kiko : rouges à lèvres, palettes, fonds de teint et bien plus,
+                pour un maquillage tendance et accessible.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Produit 3 : Chanel -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="chanel tta3rif.jpg" class="card-img-top" alt="Chanel">
+            <div class="card-body">
+              <h5 class="card-title">Chanel</h5>
+              <p class="card-text">Profitez de notre sélection de parfums, soins et maquillage de luxe de la marque
+                Chanel, symbole d’élégance et de qualité internationale.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="n">
+    <div class="container text-center">
+      <p>&copy; 2025 MAHIS. Tous droits réservés.</p>
+      <p>Contact : <a href="mailto:mahis@gmail.com">Mahis@gmail.com</a> | Tel : +212 6 12 34 56 78</p>
+
+      <!-- Icônes réseaux sociaux -->
+      <div class="social-icons mt-3">
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div> 
+  </footer>
+  <!-- JS Bootstrap 5 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

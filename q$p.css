@@ -1,0 +1,81 @@
+/* ===== GLOBAL ===== */
+body {
+  background: linear-gradient(90deg, #f7dbe5, #f4c9d7);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== BOX (card) ===== */
+.box {
+  background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== TITLES ===== */
+.box h4 {
+  color: #d36a90f0;
+  font-weight: bold;
+}
+
+/* ===== LABELS ===== */
+.box label {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* ===== INPUTS ===== */
+.box .form-control {
+  border-radius: 12px;
+  border: 1px solid #f2b7cc;
+  padding: 10px;
+}
+
+.box .form-control:focus {
+  border-color: #d36a91;
+  box-shadow: 0 0 0 0.15rem rgba(211, 106, 145, 0.25);
+}
+
+/* ===== BUTTONS ===== */
+.btn-primary {
+  background-color: #d36a91;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 22px;
+}
+
+.btn-primary:hover {
+  background-color: #b95478;
+}
+
+.btn-success {
+  background-image: linear-gradient(to top,#d36a91,#e8a8b8,#e8a8b8) ;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 22px;
+}
+
+.btn-success:hover {
+  background-color: #b95478;
+}
+
+.btn-secondary,
+.btn-outline-secondary {
+  border-radius: 20px;
+
+}
+.btn-outline-secondary:hover{
+     background-color: #4a2f36;
+}
+.btn-secondary{
+    border-color: #4a2f36;
+    color: #4a2f36;
+    background-color: none !important;
+}
+.btn-secondary:hover{
+    background-color: #4a2f36;
+    color: white;
+}
