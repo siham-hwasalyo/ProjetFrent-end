@@ -3,7 +3,7 @@
 ##  Description
 This project is a simple e-commerce website developed using HTML, CSS, and Bootstrap.  
 It simulates an online store where users can browse products, view details, and navigate between pages.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9bf6deb0-6f0e-475d-a2e5-646fc855776a" />
+<img width="1920" height="875" alt="Capture d’écran (499)" src="https://github.com/user-attachments/assets/177ed60a-bf34-43d4-933a-abfc49263e95" />
 
 ---
 
